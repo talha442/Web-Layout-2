@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: verdana, sans-serif;
+}
+
+.main {
+    width: 100%;
+}
+
+.header {
+    background: linear-gradient(#840000, #6F0000);
+    display: inline-block;
+    height: 90px;
+    width: 100%;
+}
+
+.header .logo {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.header .logo img {
+    width: 250px;
+    height: 100px;
+}
+
+.header .head {
+    display: inline-block;
+    position: relative;
+    top: -42px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header .search {
+    float: right;
+    margin-top: 33px;
+    margin-right: 40px;
+}
+
+.header .search input {
+    border: none;
+    padding: 5px;
+}
+
+.header .search button {
+    color: white;
+    background: transparent;
+    padding: 4px;
+    border: 1px white solid;
+}
+
+.header .navmenu {
+    background: linear-gradient(rgb(255, 255, 255), rgb(209, 209, 209));
+    overflow: hidden;
+    margin-top: -27px;
+}
+
+.navmenu ul {
+    list-style: none;
+    height: 19px;
+}
+
+.navmenu ul li {
+    display: inline-block;
+}
+
+.header .navmenu a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    padding-right: 18px;
+    border-right: 2px black solid;
+}
+
+.container .sidecontent {
+    display: inline-block;
+    margin-left: 30px;
+    width: 215px;
+    margin-top: 30px;
+    background: rgb(245, 243, 243);
+}
+
+.container .sidecontent ul {
+    margin-top: -4px;
+}
+
+.container .sidecontent ul li {
+    padding-top: 15px;
+    color: #8f0707;
+}
