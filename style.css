@@ -80,7 +80,7 @@ body {
     display: inline-block;
     margin-left: 30px;
     width: 215px;
-    margin-top: 30px;
+    margin-top: 26px;
     background: rgb(245, 243, 243);
 }
 
@@ -90,5 +90,41 @@ body {
 
 .container .sidecontent ul li {
     padding-top: 15px;
+    color: #8f0707;
+}
+
+.container .content {
+    float: right;
+    width: 81%;
+}
+
+.container h2,
+h5,
+span {
+    color: #8f0707;
+}
+
+.container .content .tbcontent ul li a {
+    color: #8f0707;
+    text-decoration: underline;
+}
+
+.container .content span {
+    text-decoration: underline;
+}
+
+.container hr {
+    background-color: gray;
+    width: 94%;
+    height: 1px;
+    margin-left: 0px;
+}
+
+.container h5 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.container .content .questions ol li a {
     color: #8f0707;
 }
