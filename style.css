@@ -8,6 +8,7 @@ body {
     width: 100%;
 }
 
+/*Header*/
 .header {
     background: linear-gradient(#840000, #6F0000);
     display: inline-block;
@@ -76,6 +77,7 @@ body {
     border-right: 2px black solid;
 }
 
+/*Main Container */
 .container .sidecontent {
     display: inline-block;
     margin-left: 30px;
